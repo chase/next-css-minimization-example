@@ -1,0 +1,22 @@
+{
+  "name": "next-css-minimization-example",
+  "version": "1.0.0",
+  "engines": {
+    "node": "10.15.3"
+  },
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "static": "next export",
+    "start": "next start"
+  },
+  "license": "MIT",
+  "author": "Chase Colman",
+  "dependencies": {
+    "@zeit/next-css": "^0.2.1-canary.4",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
